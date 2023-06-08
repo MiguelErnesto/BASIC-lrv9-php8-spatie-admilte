@@ -9,12 +9,12 @@
 
 ## Overview
 
-composer install
+>composer install
 
->database/my_db.sqlite
-cp .env.example .env
+>>database/my_db.sqlite
+>cp .env.example .env
 
-code .
+>code .
 
 DB_CONNECTION=sqlite
 DB_HOST=127.0.0.1
@@ -23,10 +23,10 @@ DB_DATABASE=/home/miguel/Descargas/lrv9basic0?/database/my_db.sqlite
 DB_USERNAME=root
 DB_PASSWORD=
 
-php artisan key:generate
-php artisan migrate --seed
+>php artisan key:generate
+>php artisan migrate --seed
 
-php artisan serve
+>php artisan serve
 
 
 admin@example.com
