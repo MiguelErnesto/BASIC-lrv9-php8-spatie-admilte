@@ -9,6 +9,8 @@
 
 ## Overview
 
+>git clone ... proyecto
+
 >composer install
 
 >\>database/my_db.sqlite
@@ -25,6 +27,7 @@ DB_USERNAME=root
 DB_PASSWORD=
 
 >php artisan key:generate
+
 >php artisan migrate --seed
 
 >php artisan serve
