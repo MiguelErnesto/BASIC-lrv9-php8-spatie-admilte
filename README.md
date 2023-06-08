@@ -11,7 +11,7 @@
 
 >composer install
 
->>database/my_db.sqlite
+>\>database/my_db.sqlite
 >cp .env.example .env
 
 >code .
